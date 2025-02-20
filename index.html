@@ -15,10 +15,10 @@
 <body class="p-0 m-0 bg-white overflow-x-hidden flex flex-col relative min-h-screen">
   <!-- Navbar -->
   <nav id="navbar"
-    class="bg-white visible shadow-md sticky top-0 w-full transition-opacity duration-300 ease-in-out z-50 h-[8vh] md:h-[10vh] flex items-center">
-    <div class="max-w-screen-xl container mx-auto pr-5 flex items-center justify-between">
-      <div class="text-xl font-bold text-black hidden md:block">
-        Kyrie Motorcycle and Accessories
+    class="bg-white visible shadow-md sticky top-0 w-full transition-opacity duration-300 ease-in-out z-50 h-[8vh] md:h-[10vh] flex items-center text-center">
+    <div class="max-w-screen-xl container flex items-center">
+      <div class="text-xl font-bold text-black hidden md:block ml-10">
+        Kyrie Motorparts & Accessories
       </div>
 
       <!-- Hamburger Menu Icon -->
@@ -30,7 +30,7 @@
         </button>
       </div>
 
-      <div class="flex-1.5 text-left hidden md:block">
+      <div class="flex-1.5 text-left hidden md:block ml-[15vw]">
         <ul id="nav-links" class="flex space-x-4">
           <li><a id="nav-home" href="#home"
               class="p-2.5 inline-block hover:underline bg-white hover:text-green-500">Home</a></li>
@@ -48,8 +48,9 @@
       </div>
 
       <!-- Mobile Nav Links -->
-      <div id="nav-links-mobile" class="md:hidden flex-col hidden space-y-4 bg-white w-full mt-[55.5px] pt-[50vh]">
-        <a id="nav-home" href="#home" class="p-2.5 block hover:underline bg-white hover:text-green-500">Home</a>
+      <div id="nav-links-mobile" class="md:hidden flex-col hidden space-y-1 bg-white w-full mt-[55.5px] pt-[31vh] pb-5 text-left">
+        <a id="nav-home" href="#home"
+          class="p-2.5 block hover:underline bg-white hover:text-green-500">Home</a>
         <a id="nav-features" href="#features"
           class="p-2.5 block hover:underline bg-white hover:text-green-500">Features</a>
         <a id="nav-pricing" href="#pricing"
@@ -64,7 +65,7 @@
 
 
   <!--home-->
-  <section id="home" class="mt-0 md:mt-[15vh] mb-[15vh] px-[5vw] md:px-[5vw]">
+  <section id="home" class="md:mt-[15vh] sm:mb-[15vh] px-[5vw] md:px-[5vw]">
     <div class="flex flex-col md:flex-row items-center justify-between">
       <div class="flex-1 mb-5 md:mb-0">
         <div class="mb-[5vh] mr-[5vw] mt-[5vh] md:mt-0 border rounded-[20px]">
@@ -88,7 +89,7 @@
   <section id="features" class="">
     <div class="feature">
       <div
-        class="pt-[15vh] pb-[35vh] px-[5vw] lg:pr-[5vw] flex flex-col lg:flex-row bg-gradient-to-r from-[#f8f8ff] to-transparent">
+        class="pt-[15vh] md:pb-[35vh] px-[5vw] lg:pr-[5vw] flex flex-col lg:flex-row bg-gradient-to-r from-[#f8f8ff] to-transparent pb-[25vh]">
         <div class="flex-1 text-left ml-5 max-w-full">
           <h2 class="text-4xl font-bold text-inherit">
             Power Your Ride
@@ -119,9 +120,9 @@
         </div>
       </div>
   </section>
-  <section id="pricing" class="pb-[10vh] px-[10vw]">
-    <div class="px-[5vw]">
-      <h1 class="md:text-left sm:text-left lg:text-left text-slate-950 font-bold text-4xl md:text-3xl lg:text-4xl text-center leading-tight">
+  <section id="pricing" class="px-[10vw] md:pb-[10vh]">
+    <div class="">
+      <h1 class="md:text-center sm:text-center lg:text-center text-left text-slate-950 font-bold text-4xl md:text-3xl lg:text-4xl  leading-tight">
         Our Transparent Pricing Plans, Find the Perfect Fit for Your Needs
     </h1>
     </div>    
@@ -183,8 +184,7 @@
 
 
     <div
-      class="flex flex-col mt-[20vh] lg:flex-col justify-center items-center border border-solid w-[90%] mx-auto bg-slate-950 rounded-[20px] h-[80vh] lg:h-auto p-0 lg:p-[7vw] mb-[10vh]">
-
+      class="flex flex-col mt-[20vh] lg:flex-col justify-center items-center border border-solid w-[90%] mx-auto bg-slate-950 rounded-[20px] md:h-[50vh] h-[50vh]  lg:h-auto p-0 lg:p-[7vw] mb-[10vh]">
       <h1 class="text-white font-bold text-3xl md:text-4xl lg:text-[42px] text-center leading-tight">
         Upgrade Your Ride with Our Premium Service Membership!
       </h1>
@@ -216,7 +216,7 @@
         <h1 class="text-green-500 pt-[10vh] text-center font-semibold text-[18px] md:text-[20px]">
           Have Any Questions About Motorcycles?
         </h1>
-        <h2 class="text-slate-950 mt-[5vh] text-center text-3xl md:text-5xl font-bold">
+        <h2 class="text-slate-950 mt-[5vh] text-center md:text-5xl text-4xl font-bold">
           Common Motorcycle Questions Answered
         </h2>
 
@@ -361,7 +361,7 @@
           <h1 class="text-green-500 text-center font-semibold text-[18px] pt-5">
             Latest Posts
           </h1>
-          <h1 class="text-slate-950 font-bold px-[5vw] text-4xl md:text-3xl lg:text-4xl text-center md:text-left leading-tight">
+          <h1 class="text-slate-950 font-bold px-[5vw] md:px-0 pt-[5vh] text-4xl md:text-3xl lg:text-4xl text-left md:text-center leading-tight">
             Rev Your Knowledge and Ideas: Dive into Our Motorcycle Content </h1>
           <!-- posts -->
           <div class="flex flex-wrap justify-center items-center p-10 space-x-10 space-y-10">
@@ -443,8 +443,8 @@
       </section>
       <!--footer-->
       <footer id="footer"
-        class="fixed bottom-0 left-0 right-0 w-full bg-slate-950 text-white transition-all duration-300 ease-in-out transform translate-y-full h-[95vh] flex items-center justify-center">
-        <div class="text-left px-4 sm:px-[5vw] py-8 sm:py-12 w-full">
+        class="hidden lg:flex fixed bottom-0 left-0 right-0 w-full bg-slate-950 text-white transition-all duration-300 ease-in-out transform translate-y-full h-[95vh] items-center justify-center">
+<div class="text-left px-4 sm:px-[5vw] py-8 sm:py-12 w-full">
           <div class="flex flex-col md:flex-row justify-start items-start z-10 space-y-6 md:space-y-0 md:space-x-12">
             <div class="w-full md:w-1/4 flex-shrink-0">
               <h1 class="text-xl sm:text-2xl font-bold pb-4 sm:pb-6">
